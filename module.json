@@ -1,0 +1,21 @@
+{
+    "name": "Tag",
+    "alias": "tag",
+    "description": "Tag management in EncoreCMS",
+    "keywords": [
+        "Tag",
+        "EncoreCMS",
+        "taggable"
+    ],
+    "version": "1.0.0",
+    "active": 1,
+    "priority": 1,
+    "providers": [
+        "Modules\\Tag\\Providers\\TagServiceProvider",
+        "Modules\\Tag\\Providers\\RouteServiceProvider"
+    ],
+    "aliases":{
+        "TagWidget": "Modules\\Tag\\Blade\\Facades\\TagWidget"
+    },
+    "files": []
+}

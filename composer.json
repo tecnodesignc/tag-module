@@ -1,0 +1,45 @@
+{
+    "name": "tecnodesignc/tag-module",
+    "description": "Tag management in EncoreCMS",
+    "type": "encore-module",
+    "license": "MIT",
+    "keywords": [
+        "encorecms",
+        "tags",
+        "taggable"
+    ],
+    "authors": [
+        {
+            "name": "Marcos Rativa",
+            "email": "marcos21.009@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "composer/installers": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "orchestra/testbench": "3.8.*",
+        "tecnodesignc/page-module": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Tag\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Tag\\": ".",
+            "Modules\\": "Modules/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
