@@ -22,7 +22,7 @@
     "require-dev": {
         "phpunit/phpunit": "~7.0",
         "orchestra/testbench": "3.8.*",
-        "tecnodesignc/page-module": "~1.0"
+        "tecnodesignc/page-module": "^1.0"
     },
     "autoload": {
         "psr-4": {

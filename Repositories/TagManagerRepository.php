@@ -16,7 +16,7 @@ class TagManagerRepository implements TagManager
      * Returns all the registered namespaces.
      * @return array
      */
-    public function getNamespaces()
+    public function getNamespaces() : array
     {
         return $this->namespaces;
     }
