@@ -1,4 +1,8 @@
-url: https://github.com/Tecnodesignc/Platform
+url: https://github.com/tecnodesignc/tag-module
 versions:
+  "2.0.0":
+    changed:
+      - Laravel 9 compatibility
    "1.0.0":
+     added:
        Initial Version Module

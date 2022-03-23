@@ -1,4 +1,5 @@
 {
+    "title": "Tag",
     "name": "Tag",
     "alias": "tag",
     "description": "Tag management in EncoreCMS",
@@ -7,7 +8,9 @@
         "EncoreCMS",
         "taggable"
     ],
-    "version": "1.0.0",
+    "author": "Marcos Rativa",
+    "require": {},
+    "version": "2.0.0",
     "active": 1,
     "priority": 1,
     "providers": [
@@ -17,5 +20,6 @@
     "aliases":{
         "TagWidget": "Modules\\Tag\\Blade\\Facades\\TagWidget"
     },
-    "files": []
+    "files": [],
+    "minimumCoreVersion": "2.0"
 }
