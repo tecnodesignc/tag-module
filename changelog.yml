@@ -1,6 +1,6 @@
 url: https://github.com/tecnodesignc/tag-module
 versions:
-  "2.1.0":
+  "3.0.0":
     changed:
       - Laravel 10 compatibility
   "2.0.0":

@@ -10,7 +10,7 @@
     ],
     "author": "Marcos Rativa",
     "require": {},
-    "version": "2.1.0",
+    "version": "3.0.0",
     "active": 1,
     "priority": 1,
     "providers": [
@@ -21,7 +21,7 @@
         "TagWidget": "Modules\\Tag\\Blade\\Facades\\TagWidget"
     },
     "files": [],
-    "minimumCoreVersion": "2.1",
-    "compatibility": "2.1",
+    "minimumCoreVersion": "3.0",
+    "compatibility": "3.0",
     "authors": ["Marcos Rativa"]
 }
